@@ -10,6 +10,17 @@
 			},
 			"problemMatcher": [],
 			"label": "dotnet: build"
+		},
+		{
+			"label": "launch godot",
+			"type": "shell",
+			"command": "C:/Program Files/Godot/Godot_v4.2.1-stable_mono_win64/Godot_v4.2.1-stable_mono_win64.exe",
+			"args": [
+				"--path",
+				"${workspaceFolder}",
+				"--editor"
+			],
+			"problemMatcher": []
 		}
 	]
 }
